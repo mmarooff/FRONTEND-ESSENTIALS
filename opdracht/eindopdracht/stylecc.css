@@ -1,0 +1,51 @@
+/* Hier hoef je niks mee te doen */
+*{
+    font-size:0;
+}
+
+#container{
+    width: 800px;
+    height: 500px;
+    background-color: blanchedalmond;
+    border: 1px solid black;
+}
+
+/* Hieronder kun je gaan editen */
+
+#links{
+    width: 35%;
+    height: 100%;
+    display: inline-block;
+}
+
+#rechts{
+    width: 65%;
+    height: 100%;
+    display: inline-block;
+}
+#linksboven{
+    height: 50%;
+    background-color: blue;
+}
+
+#linksonder{
+    height: 50%;
+    background-color: red;
+} 
+
+#rechtsboven{
+    height: 50%;
+    background-color: white;
+}
+
+#rechtsonder{
+    height: 50%;
+    background-color: red;
+} 
+
+
+
+
+
+
+

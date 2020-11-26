@@ -1,0 +1,91 @@
+/* Hier hoef je niks mee te doen */
+*{
+    font-size:0;
+}
+
+#container{
+    width: 900px;
+    height: 600px;
+    background-color: blanchedalmond;
+    border: 1px solid black;
+}
+
+/* Hieronder kun je gaan editen */
+
+#bovenkant{
+    width: 900px;
+    height: 600px;
+    left: 298px;
+    background-color: red;
+}
+
+#ja{
+    width: 900px;
+    height: 90px;
+    margin: 30px;
+    margin-right: 90px;
+    margin-left: 0px;
+    margin-top: -400px;
+    background-color: darkblue;
+}
+
+#noorwegen{
+    width: 300px;
+    height: 25px;
+    margin: 30px;
+    margin-right: 90px;
+    margin-left: 0px;
+    margin-top: 70px;
+    background-color: white;
+}
+
+#onderkant{
+    width: 300px;
+    height: 20px;
+    margin: 30px;
+    margin-right: 90px;
+    margin-left: 0px;
+    margin-top: -130px;
+    background-color: white;
+}
+
+#open{
+    width: 500px;
+    height: 25px;
+    margin: 30px;
+    margin-right: 90px;
+    margin-left: 400px;
+    margin-top: -67px;
+    background-color: white;
+}
+
+#nogo{
+    width: 900px;
+    height: 22px;
+    margin: 30px;
+    margin-right: 90px;
+    margin-left: 400px;
+    margin-top: -130px;
+    background-color: white;
+}
+
+#middenstuk{
+    width: 100px;
+    height: 600px;
+    margin: 30px;
+    margin-right: 40px;
+    margin-left: 300px;
+    margin-top: -630px;
+    background-color: darkblue;
+}
+
+#yo{
+    width: 150px;
+    height: 600px;
+    margin: 30px;
+    margin-right: 20px;
+    margin-left: 275px;
+    margin-top: -600px;
+    background-color: white;
+}
+

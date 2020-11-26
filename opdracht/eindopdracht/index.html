@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
     
@@ -12,27 +13,50 @@
         
     </div>
     <div class="container">
-        <div class="col">
-            <div class="button" id="eten"><span>Geef eten</span></div>
-            <div class="button" id="drinken"><span>Geef Drinken</span></div>
-            <div class="button" id="aaien"><span>Aaien</span></div>
-        </div>
-        <div class="col">
+        
         </div>
         <div class="response"></div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="indexp.html">Polen</a></li>
+            <li><a href="indexn.html">Nederland</a></li>
+            <li><a href="indexf.html">Frankrijk</a></li>
+            <li><a href="indexc.html">Colombia</a></li>
+            <li><a href="indexb.html">Botswana</a></li>
+            <li><a href="indexbb.html">Benin</a></li>
+            <li><a href="indexcc.html">Chile</a></li>
+            <li><a href="indexd.html">Denemarken</a></li>
+            <li><a href="indexnn.html">Noorwegen</a></li>
+        </ul>
     </div>
-    <script>
-        
-        let persoon = {
-            voornaam : prompt("Wat is je naam?"),
-            achternaam : prompt("Wat is je achternaam?"),
-            leeftijd : prompt("Wat is je leeftijd?"),
-        };
+    
+    <h1 id="koptext"></h1>
+ 
+              <table>
+            <thead>
+                <tr>
+                    <th>voornaam</th>
+                    <th>achternaam</th>
+                    <th>email</th>
+                    <th>leeftijd</th>
+                    <th>woonplaats</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td id="voornaam">...</td>
+                    <td id="achternaam">...</td>
+                    <td id="email">...</td>
+                    <td id="leeftijd">...</td>
+                    <td id="woonplaats">...</td>
+                </tr>
+            </tbody>
+        </table>
 
 
-
-        
-        
-    </script>
+ 
+    </div>
+ 
+    <script src="script.js"></script>
 </body>
 </html>
